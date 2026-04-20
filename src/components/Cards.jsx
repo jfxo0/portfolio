@@ -4,7 +4,7 @@ import { FolderGit2 } from "lucide-react";
  function ProjectCard({ project }) {
     return (
         <div
-            className="bg-[url('public/background_portfolio.gif')] bg-cover bg-center bg-no-repeat  border border-gray-200 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition">
+            className="bg-[url('/background_portfolio.gif')] bg-cover bg-center bg-no-repeat  border border-gray-200 rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition">
             <img
                 src={project.images[0]}
                 alt={project.title}
