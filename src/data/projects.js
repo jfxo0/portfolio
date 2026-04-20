@@ -3,7 +3,7 @@ export const projects = [
         slug: "reservation-app",
         title: "reservation-app",
         category: "Full-stack",
-        tech: ["React", "Node.js", "MySQL"],
+        tech: ["PHP", "MySQL", "Tailwind"],
         summary: "a reservation system made with PHP during CLE",
         github: "https://github.com/Luuk709/cle2",
         live: "",
@@ -34,7 +34,7 @@ export const projects = [
         status: "Playable",
         videos: [],
         images: [
-            "https://placehold.co/1200x700?text=Information+Section",
+            "/banner.png",
         ],
         challenge:
             "I needed to make the content easy to scan and visually balanced.",
@@ -46,14 +46,14 @@ export const projects = [
         slug: "Laravel-Project",
         title: "first laravel project",
         category: "Full-stack",
-        tech: ["Laravel", "Tailwind"],
+        tech: ["Laravel", "Tailwind", "Vite"],
         summary: "This is my final Laravel project, here you have a full CRUD system made with laravel. When you make a new account you're forced to make 2 series before you can edit. You can't delete posts that arent yours and if you try to edit something that isn't yours you will get an no authorization error",
         role: "Designed and developed the full site.",
         github: "https://github.com/jfxo0/series-and-films",
         live: "",
         status: "Done",
         images: [
-            "https://placehold.co/1200x700?text=Information+Section",
+            "/prg5-banner.png",
         ],
         videos: [
             "/laravel.mp4",
@@ -76,7 +76,7 @@ export const projects = [
         live: "",
         status: "Done",
         images: [
-            "https://placehold.co/1200x700?text=Information+Section",
+            "/laravelBanner.png",
         ],
         videos: [
             "/flowHaven.mp4",
