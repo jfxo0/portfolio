@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
  function Navbar() {
     return (
-        <header className="sticky top-0 z-20 bg-[url('public/navBar.gif')] bg-cover bg-center bg-no-repeat  backdrop-blur bg-gray-50/80 border-b border-gray-200 font-itim">
+        <header className="sticky top-0 z-20 bg-[url('/navBar.gif')] bg-cover bg-center bg-no-repeat  backdrop-blur bg-gray-50/80 border-b border-gray-200 font-itim">
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 <div>
                     <Link to="/" className="font-semibold text-lg">

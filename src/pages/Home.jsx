@@ -28,14 +28,14 @@ export default function HomePage() {
                         <div className="flex flex-wrap gap-3">
                             <a
                                 href="#projects"
-                                className="rounded-2xl px-5 py-3 bg-[url('public/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-300  hover:opacity-90 transition"
+                                className="rounded-2xl px-5 py-3 bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-300  hover:opacity-90 transition"
                             >
                                 View Projects
                             </a>
 
                             <a
                                 href="mailto:janisha.ly.wong@gmail.com"
-                                className="rounded-2xl px-5 py-3 border border-gray-300 bg-[url('public/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-300 inline-flex items-center gap-2 hover:border-gray-400 transition"
+                                className="rounded-2xl px-5 py-3 border border-gray-300 bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-300 inline-flex items-center gap-2 hover:border-gray-400 transition"
                             >
                                 <Mail className="w-4 h-4" />
                                 Contact Me
