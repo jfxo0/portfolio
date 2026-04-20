@@ -110,19 +110,19 @@ import { FolderGit2, ExternalLink } from "lucide-react";
                         />
                     ))}
 
-                    <div className="grid gap-4">
-                        {project.videos.map((vid, index) => (
-                            <video
-                                key={index}
-                                controls
-                                muted
-                                className="w-full rounded-3xl border border-gray-200 shadow-sm"
-                            >
-                                <source src={vid} type="video/mp4"/>
-                            </video>
-                        ))}
+                    {/*<div className="grid gap-4">*/}
+                    {/*    {project.videos.map((vid, index) => (*/}
+                    {/*        <video*/}
+                    {/*            key={index}*/}
+                    {/*            controls*/}
+                    {/*            muted*/}
+                    {/*            className="w-full rounded-3xl border border-gray-200 shadow-sm"*/}
+                    {/*        >*/}
+                    {/*            <source src={vid} type="video/mp4"/>*/}
+                    {/*        </video>*/}
+                    {/*    ))}*/}
 
-                    </div>
+                    {/*</div>*/}
                 </div>
             </div>
         </div>
