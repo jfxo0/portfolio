@@ -38,7 +38,7 @@ export default function HomePage() {
                                 className="rounded-2xl px-5 py-3 border border-gray-300 bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-300 inline-flex items-center gap-2 hover:border-gray-400 transition"
                             >
                                 <Mail className="w-4 h-4" />
-                                Contact Me
+                                Contact Me!
                             </a>
                         </div>
                     </div>
