@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import '@fontsource/itim';
+
+.font-itim {
+    font-family: 'Itim', cursive;
+}
