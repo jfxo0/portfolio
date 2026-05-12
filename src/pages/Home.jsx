@@ -8,7 +8,7 @@ import { projects } from "../data/projects";
 export default function HomePage() {
     return (
         <>
-            <section id="top" className="max-w-6xl mx-auto px-6 py-20 ">
+            <section className="max-w-6xl mx-auto px-6 py-20 ">
                 <div className="grid gap-10 items-center">
                     <div>
             <span className="inline-block mb-4 text-sm rounded-full px-3 py-1 bg-green-500 border  shadow-sm">
@@ -21,21 +21,20 @@ export default function HomePage() {
 
                         <p className="text-lg text-gray-600 max-w-xl mb-8">
                             I am a Creative Media and Game Technologies student focused on
-                            front-end and full-stack development. This portfolio shows my
-                            projects, my process, and the skills I am developing.
+                            front-end and full-stack development.
                         </p>
 
                         <div className="flex flex-wrap gap-3">
                             <a
                                 href="#projects"
-                                className="rounded-2xl px-5 py-3 bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-300  hover:opacity-90 transition"
+                                className="rounded-2xl px-5 py-3 border border-gray-300 bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-400 hover:text-indigo-300 hover:border-gray-400 transition"
                             >
                                 View Projects
                             </a>
 
                             <a
                                 href="mailto:janisha.ly.wong@gmail.com"
-                                className="rounded-2xl px-5 py-3 border border-gray-300 bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-300 inline-flex items-center gap-2 hover:border-gray-400 transition"
+                                className="rounded-2xl px-5 py-3 border border-gray-300 bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-400 inline-flex items-center gap-2 hover:text-indigo-300 hover:border-gray-400 transition"
                             >
                                 <Mail className="w-4 h-4" />
                                 Contact Me!
@@ -49,8 +48,7 @@ export default function HomePage() {
                                 <User className="w-5 h-5 mb-3" />
                                 <h3 className="font-semibold mb-1">About me</h3>
                                 <p className="text-sm text-gray-600">
-                                    Student developer with interest in UI, front-end, and
-                                    full-stack work.
+                                    I'm a 20 year old student studying at the university of applied science for my Bachelores degree in Creative Media & Game Technology. In my free time i enjoy playing games like Honor of Kings or Yugioh and i love exploring new food places!
                                 </p>
                             </div>
 
@@ -58,7 +56,8 @@ export default function HomePage() {
                                 <FolderGit2 className="w-5 h-5 mb-3" />
                                 <h3 className="font-semibold mb-1">Projects</h3>
                                 <p className="text-sm text-gray-600">
-                                    School, personal, and case-study projects presented clearly.
+                                    This portfolio shows my
+                                    projects, my process, and the skills I am developing.
                                 </p>
                             </div>
 
@@ -106,14 +105,15 @@ export default function HomePage() {
                     <div>
                         <h3 className="text-2xl font-semibold mb-2">Let’s connect</h3>
                         <p className="text-gray-600">
-                            You can reach me by email or view more of my code on GitHub.
+                            You can reach me by email or view more of my projects on GitHub.
                         </p>
                     </div>
 
                     <div className="flex flex-wrap gap-3">
                         <a
                             href="mailto:janisha.ly.wong@gmail.com"
-                            className="rounded-2xl px-5 py-3 bg-black text-white inline-flex items-center gap-2"
+                            className="rounded-2xl px-5 py-3 border border-gray-300 inline-flex items-center bg-black text-white hover:text-indigo-300 hover:border-gray-400 transition"
+
                         >
                             <Mail className="w-4 h-4"/>
                             Email Me
@@ -122,7 +122,7 @@ export default function HomePage() {
                             href="https://github.com/jfxo0"
                             target="_blank"
                             rel="noreferrer"
-                            className="rounded-2xl px-5 py-3 border border-gray-300 inline-flex items-center gap-2"
+                            className="rounded-2xl px-5 py-3 border border-gray-300 inline-flex items-center bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-400 hover:text-indigo-300 hover:border-gray-400 transition"
                         >
                             <FolderGit2 className="w-4 h-4"/>
                             GitHub
@@ -131,7 +131,7 @@ export default function HomePage() {
                             href="https://nl.linkedin.com/in/janisha-wong-03257534a"
                             target="_blank"
                             rel="noreferrer"
-                            className="rounded-2xl px-5 py-3 border border-gray-300 inline-flex items-center gap-2 hover:border-gray-400 transition"
+                            className="rounded-2xl px-5 py-3 border border-gray-300 inline-flex items-center bg-[url('/button.jpg')] bg-cover bg-center bg-no-repeat text-indigo-400 hover:text-indigo-300 hover:border-gray-400 transition"
                         >
                             <LinkedInIcon className="w-4 h-4"/>
                             LinkedIn

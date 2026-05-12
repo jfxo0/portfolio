@@ -34,7 +34,7 @@ import { FolderGit2 } from "lucide-react";
                 <div className="flex gap-3">
                     <Link
                         to={`/projects/${project.slug}`}
-                        className="rounded-2xl px-4 py-2 bg-blue-200 text-white hover:opacity-90 transition"
+                        className="rounded-2xl px-4 py-2 bg-blue-200 text-gray-700  hover:opacity-90 transition"
                     >
                         View Project
                     </Link>

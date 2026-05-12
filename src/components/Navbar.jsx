@@ -15,7 +15,7 @@ import { Link } from "react-router";
 
                 <nav className="flex gap-3">
                     <a
-                        href="#top"
+                        href="/"
                         className="rounded-2xl px-4 py-2 text-sm bg-blue-100 text-gray-700 border border-gray-200 hover:border-gray-300"
                     >
                         Home
