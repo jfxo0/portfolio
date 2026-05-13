@@ -59,6 +59,8 @@ export default function HomePage() {
                                     This portfolio shows my
                                     projects, my process, and the skills I am developing.
                                 </p>
+                               <p className="text-sm text-gray-600"> If you want to view more of my Projects check out my Canva Portfolio by clicking <a href="https://janishawong.my.canva.site/portfolio" className="text-blue-500 underline hover:text-black">here</a>.</p>
+
                             </div>
 
                             <div className="rounded-3xl border border-gray-200 p-5 col-span-2">
