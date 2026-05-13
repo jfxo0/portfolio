@@ -109,10 +109,8 @@ export const projects = [
         title: "UI/UX design",
         category: "Front-end/Design",
         tech: ["Figma", "Miro"],
-        summary: "During TLE3 we were challenged with a Fullstack project. My team was split in two teams, Frontend and Backend.",
-        role: "Frontend, making the whole admin page, login & register and helping my teammates",
-        github: "https://github.com/TrevinoRizkySunarja/TLE3-FrontEnd",
-        live: "",
+        summary: "Here you have my UX/UI wireframes, scroll down to find the wireframes ",
+        live: "https://janishawong.my.canva.site/portfolio",
         status: "Done",
         images: [
             "/laravelBanner.png",
@@ -122,10 +120,10 @@ export const projects = [
             "/flowHaven.mp4",
         ],
         challenge:
-            "We had to make a local authority website with a personalized AI feature which would make the website feel more personal to the target group.",
-        solution: "The Idea behind our application was to have a sort of For You page with the content you clicked on in settings. Ai will generate your likeness on which news is the most relevant to you.",
+            "",
+        solution: "",
         learned:
-            "I learned how to work within two whole separate groups and how to communicate better within a team.",
+            "",
 
     },
 ];
