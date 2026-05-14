@@ -36,21 +36,24 @@ export const projects = [
         category: "Game Development",
         tech: ["Excalibur.js", "OOP", "JavaScript"],
         summary:
-            "A webgame made with 3 factors in mind: Fantasy, Achievers & Sustainability. Made for the controller but is playable on keyboard.",
+            "A webgame made with 3 factors in mind: Fantasy, Achievers & Sustainability. Made for the controller but is playable on keyboard." +
+            " Purify is based of my Game Design Document.",
         role: "Programming the enemies & bosses, design leader and poster maker",
         github: "https://github.com/dtb354/Team6-Project-Net",
         live: "https://dannythebozo.itch.io/purify",
         status: "Playable",
         videos: [],
         images: [
+            "/purify.gif",
             "/banner.png",
+            "/purify_gdd.png",
             "/purify_waterEnemy.png",
             "/purify_enemyState.png",
             "/purify_enemyHealthbar.png",
             "/purify_GameOver.png",
             "/purify_poster1.png",
             "/purify_poster2.png",
-            "/purify_poster3.png"
+            "/purify_poster3.png",
         ],
         challenge:
             "For our targeted group (the achievers) i needed to make sure that the enemies & the boss was difficult enough to get the achievers feeling but also not too difficult that they will get bored.",
@@ -69,7 +72,7 @@ export const projects = [
         live: "",
         status: "Done",
         images: [
-            "/prg5-banner.png",
+            "/laravel1.gif",
         ],
         videos: [
             "/laravel.mp4",
@@ -113,7 +116,13 @@ export const projects = [
         live: "https://janishawong.my.canva.site/portfolio",
         status: "Done",
         images: [
-            "/laravelBanner.png",
+            "/design.png",
+            "/design3.png",
+            "/design4.png",
+            "/design5.png",
+            "/design7.png",
+            "/design2.png",
+
         ],
         videos: [
             "/flowHaven.mp4",
@@ -125,5 +134,53 @@ export const projects = [
         learned:
             "",
 
+    },
+    {
+        slug: "Runman",
+        title: "Runman",
+        category: "Game Development",
+        tech: ["Excalibur.js", "OOP", "JavaScript"],
+        summary:
+            "my final project for game development, It's an infinite running game what will become harder the more you play it.",
+        role: "Programming & designing the whole gamr",
+        github: "https://github.com/jfxo0/eindproject-game",
+        live: "https://jfxo0.github.io/eindproject-game/",
+        status: "Playable",
+        videos: [],
+        images: [
+
+            "/runman.gif",
+            "/runman.png",
+            "/runman2.png",
+            "/runman3.png",
+        ],
+        challenge:
+            "Make a game all by myself according to the programming theory i learned",
+        solution: "",
+        learned:
+            "I learned how to make a javascript type game with OOP.",
+    },
+    {
+        slug: "ai-bot",
+        title: "Matchmaking bot",
+        category: "ai algorithm",
+        tech: ["", "", ""],
+        summary:
+            "During TLE3 we had a workshop AI algorithm for our project, here we made a matchmaking bots based on data",
+        role: "making the ai",
+        github: "https://github.com/jfxo0/eindproject-game",
+        live: "https://jfxo0.github.io/eindproject-game/",
+        status: "Done",
+        videos: [],
+        images: [
+
+            "/matchmaking.gif",
+
+        ],
+        challenge:
+            "",
+        solution: "",
+        learned:
+            "",
     },
 ];

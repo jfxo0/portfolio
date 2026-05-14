@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { useParams, Link } from "react-router";
 import { projects } from "../data/projects";
-import { FolderGit2, ExternalLink } from "lucide-react";
+import { FolderGit2, ExternalLink, X } from "lucide-react";
 
- function Project() {
+function Project() {
     const { slug } = useParams();
+    const [selectedImage, setSelectedImage] = useState(null);
 
     const project = projects.find((item) => item.slug === slug);
 
@@ -32,9 +34,9 @@ import { FolderGit2, ExternalLink } from "lucide-react";
 
             <div className="grid lg:grid-cols-2 gap-10 items-start">
                 <div>
-          <span className="inline-block mb-4 text-sm rounded-full px-3 py-1 bg-gray-100 border border-gray-200">
-            {project.category}
-          </span>
+                    <span className="inline-block mb-4 text-sm rounded-full px-3 py-1 bg-gray-100 border border-gray-200">
+                        {project.category}
+                    </span>
 
                     <h1 className="text-4xl md:text-5xl font-semibold mb-4">
                         {project.title}
@@ -48,8 +50,8 @@ import { FolderGit2, ExternalLink } from "lucide-react";
                                 key={item}
                                 className="text-sm px-3 py-1 rounded-full bg-white border border-gray-200"
                             >
-                {item}
-              </span>
+                                {item}
+                            </span>
                         ))}
                     </div>
 
@@ -106,27 +108,35 @@ import { FolderGit2, ExternalLink } from "lucide-react";
                             key={index}
                             src={img}
                             alt={`${project.title} preview ${index + 1}`}
-                            className="w-full rounded-3xl border border-gray-200 shadow-sm"
+                            onClick={() => setSelectedImage(img)}
+                            className="w-full rounded-3xl border border-gray-200 shadow-sm cursor-zoom-in hover:opacity-90 transition"
                         />
                     ))}
-
-                    {/*<div className="grid gap-4">*/}
-                    {/*    {project.videos.map((vid, index) => (*/}
-                    {/*        <video*/}
-                    {/*            key={index}*/}
-                    {/*            controls*/}
-                    {/*            muted*/}
-                    {/*            className="w-full rounded-3xl border border-gray-200 shadow-sm"*/}
-                    {/*        >*/}
-                    {/*            <source src={vid} type="video/mp4"/>*/}
-                    {/*        </video>*/}
-                    {/*    ))}*/}
-
-                    {/*</div>*/}
                 </div>
             </div>
+
+            {selectedImage && (
+                <div
+                    className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-6"
+                    onClick={() => setSelectedImage(null)}
+                >
+                    <button
+                        onClick={() => setSelectedImage(null)}
+                        className="absolute top-6 right-6 text-white bg-black/40 rounded-full p-2 hover:bg-black/60 transition"
+                    >
+                        <X className="w-7 h-7" />
+                    </button>
+
+                    <img
+                        src={selectedImage}
+                        alt="Enlarged project preview"
+                        onClick={(e) => e.stopPropagation()}
+                        className="max-w-[90vw] max-h-[90vh] object-contain rounded-3xl shadow-2xl"
+                    />
+                </div>
+            )}
         </div>
     );
- }
+}
 
 export default Project

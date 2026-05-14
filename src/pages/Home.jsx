@@ -60,13 +60,13 @@ export default function HomePage() {
                                     projects, my process, and the skills I am developing.
                                 </p>
                                <p className="text-sm text-gray-600"> You can view the <span className="underline text-black"> Demo videos & more </span> for my projects on my <span className="text-black">Canva portfolio</span>  by clicking <a href="https://janishawong.my.canva.site/portfolio" className="text-blue-500 underline hover:text-black">here</a>.</p>
-
+<p> This portfolio is still in process & gets updated constantly</p>
                             </div>
 
                             <div className="rounded-3xl border border-gray-200 p-5 col-span-2">
                                 <h3 className="font-semibold mb-2">Tech stack</h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {["React", "JavaScript", "Node.js", "PHP", "Laravel", "CSS"].map(
+                                    {["React", "JavaScript", "Node.js", "PHP", "Laravel", "CSS", "Express", "React Native"].map(
                                         (item) => (
                                             <span
                                                 key={item}
