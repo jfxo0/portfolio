@@ -164,7 +164,7 @@ export const projects = [
         slug: "ai-bot",
         title: "Matchmaking bot",
         category: "ai algorithm",
-        tech: ["", "", ""],
+        tech: [],
         summary:
             "During TLE3 we had a workshop AI algorithm for our project, here we made a matchmaking bots based on data",
         role: "making the ai",
